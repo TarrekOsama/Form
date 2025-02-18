@@ -5,6 +5,7 @@ A user registration form implemented using HTML, CSS, and JavaScript, featuring 
 ## Project Description
 
 This project presents a user-friendly registration form that collects essential user information. It incorporates client-side validation to ensure data integrity before submission. Upon successful registration, users are redirected to a welcome page.
+![image](https://github.com/user-attachments/assets/e4c98fb9-57b0-4aef-ba9e-3662c46db7d6)
 
 ## Features
 
