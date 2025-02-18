@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-repeat: repeat
+;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(90deg,rgba(111, 54, 0, 0.645), #1c8bacb1);}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 450px;
+    height: 100%;
+    margin: 50px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.form h1{
+    color: rgb(111, 54, 0);
+    padding: 10px;
+    margin: 20px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-gender{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;}
+
+
+
+.form-lable label{
+    display:flex;
+    font-size: 18px;
+    color: #1c8aac;
+    font-weight: bold;
+    padding: 10px 0 0 0 ;
+    text-align: left;
+}
+.form-lable input{
+    display:flex;
+    width: 90%;
+    height: 25px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    border: 1px solid rgb(111, 54, 0);;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+
+}
+input[type="radio"]:checked{
+    color: #15af4b;
+}
+
+input[type="checkbox"]:checked{
+    color: #15af4b;
+}
+.form-lang{
+    
+    display: inline-block;
+    margin: 10px;
+}
+
+.form-lang h4{
+    padding: 10px;
+    font-size: 18px;
+    color: #1c8aac;
+    font-weight: bold;
+    
+}
+.form-lang label{
+    color: rgb(111, 54, 0);
+    font-weight: bold;
+}
+
+
+
+.form-gender h4{
+    padding: 10px;
+    font-size: 18px;
+    color: #1c8aac;
+    font-weight: bold;
+    
+}
+.form-gender label{
+    color: rgb(111, 54, 0);
+    font-weight: bold;
+}
+
+.form button{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.96);
+    color: #fff;
+    border-radius: 10px;
+}

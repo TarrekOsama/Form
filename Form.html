@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Register</h1>
+        <form id="form-input" method="get" name="form">
+            <div class="form-lable">
+                <label for="username">UserName:</label>
+                <input type="text" id="username" >
+                <p class="error" id="usernameError"></p>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email"  >
+                <p class="error" id="emailError"></p>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" >
+                <p class="error" id="passwordError"></p>
+    
+                <label for="phonenumber">phone number:</label>
+                <input type="number" id="phonenumber" >
+                <p class="error" id="phoneError"></p>
+    
+            </div>
+           
+            <div class="form-lang">
+                <h4>select your language</h4>
+                <input type="checkbox" id="english" name="language">
+                <label for="english">english:</label>
+
+                <input type="checkbox" id="araic" name="language">
+                <label for="araic">arabic:</label>
+                
+                <input type="checkbox" id="dutch" name="language">
+                <label for="dutch">dutch:</label>
+
+                <input type="checkbox" id="french" name="language">
+                <label for="french">french:</label>
+            </div>
+            <p class="error" id="languagesError"></p>
+            
+            <div class="form-gender">
+                <h4>select your gender</h4>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">male:</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">female:</label>
+            </div>
+            <p class="error" id="genderError"></p>
+
+            <div>
+                <button type="submit">REGISTER!</button>
+            </div>
+
+        </form>
+     
+    </div>
+    <script src="JS.js"></script>
+</body>
+</html>
